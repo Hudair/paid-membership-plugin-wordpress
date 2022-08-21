@@ -177,6 +177,7 @@ function pmpro_gateways() {
 		'authorizenet'      => __( 'Authorize.net', 'paid-memberships-pro' ),
 		'braintree'         => __( 'Braintree Payments', 'paid-memberships-pro' ),
 		'cybersource'       => __( 'Cybersource', 'paid-memberships-pro' ),
+		'moyasar'           => __( 'Moyasar', 'paid-memberships-pro' ),
 	);
 
 	if ( pmpro_onlyFreeLevels() ) {
