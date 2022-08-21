@@ -58,6 +58,8 @@
 			$pmpro_accepted_credit_cards[] = "EnRoute";
 		if(!empty($_REQUEST['creditcards_jcb']))
 			$pmpro_accepted_credit_cards[] = "JCB";
+		if(!empty($_REQUEST['creditcards_mada']))
+			$pmpro_accepted_credit_cards[] = "Mada";
 
 		pmpro_setOption("accepted_credit_cards", implode(",", $pmpro_accepted_credit_cards));
 
